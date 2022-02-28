@@ -25,7 +25,7 @@ router.post('/', (req, res) => {
         res.status(400).json(err);
       });
   }
-});
+}});
 
 router.delete('/:id', (req, res) => {
   if (req.session) {
